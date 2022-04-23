@@ -1,0 +1,26 @@
+.box {
+    background-color: none;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    color: #454545;
+    font-size: 16px;
+    background: linear-gradient(#e0e0e0, #116788);
+    margin: 0;
+    display: block;
+    margin: 8px;
+}
+
+.image {
+    float: left;
+    margin-right: 10px;
+}

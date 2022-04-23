@@ -1,0 +1,127 @@
+<html lang="ru">
+
+<img src="https://pythonworld.ru/m/img/python-3.png" alt="">
+
+<body>
+    <form>
+        <input type="text" name="text" class="search" placeholder Search here!>
+        <input type="submit" name="submit" class="submit" value="Search">
+    </form>
+    <ul>
+        <li><a href="https://youtu.be/LFCq-mNF96c">Видео</a></li>
+    </ul>
+    <!-- C:\Users\vitko\OneDrive\Рабочий стол\Test Python\index.html -->
+    <a href="../index.html">Назад</a>
+    </ul>
+    </div>
+    </nav>
+    </header>
+    <div id="main" class="site-main clearfix">
+        <div id="primary" class="content-area">
+            <div id="content" class="site-content hentry">
+                <article class="post">
+                    <header class="entry-header">
+                        <h1>Первая программа. Среда разработки IDLE</h1>
+                    </header>
+                    <div id="ytb">
+                        <div id="letpy__banner">
+
+                        </div>
+                    </div>
+            </div>
+            <div class="entry-content">
+                <p>Сегодня мы напишем свою первую программу в среде разработки IDLE.</p>
+                <p>После <a
+                        href="C:\Users\vitko\OneDrive\Рабочий стол\Test Python\pages\Установка пайтон на Windows.html"
+                        target="_blank">загрузки и
+                        установки python</a> открываем IDLE (среда разработки
+                    на языке Python, поставляемая вместе с дистрибутивом).</p>
+                <p>Здесь и далее буду приводить примеры под ОС Windows, так как именно она у меня сейчас
+                    под рукой.</p>
+                <p><img alt="Запуск IDLE из меню Пуск" src="/uploads/python-first-programm/start-idle.png"></p>
+                <p>Запускаем IDLE (изначально запускается в интерактивном режиме), после чего уже можно
+                    начинать писать первую программу. Традиционно, первой программой у нас будет "hello
+                    world".</p>
+                <p>Чтобы написать "hello world" на python, достаточно всего одной строки:</p>
+                <pre
+                    class="code python3"><span class="nb">print</span><span class="p">(</span><span class="s2">"Hello world!"</span><span class="p">)</span></pre>
+                <p>Вводим этот код в IDLE и нажимаем Enter. Результат виден на картинке:</p>
+                <p><img alt="Первая программа на python" src="/uploads/python-first-programm/idle-first-programm.png">
+                </p>
+                <p>Поздравляю! Вы написали свою <b>первую программу на python</b>! (<a
+                        href="https://pythonworld.ru/osnovy/programma-ne-raboaet.html" target="_blank">если
+                        что-то не работает</a>).</p>
+                <p>С интерактивным режимом мы немного познакомились, можете с ним ещё поиграться,
+                    например, написать</p>
+                <pre
+                    class="code python3"><span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">+</span> <span class="mi">4</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">*</span> <span class="mi">5</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="mi">3</span> <span class="o">**</span> <span class="mi">2</span><span class="p">)</span></pre>
+                <p>Но, всё-таки, интерактивный режим не будет являться основным. В основном, вы будете
+                    сохранять программный код в файл и запускать уже файл.</p>
+                <p>Для того, чтобы создать новое окно, в интерактивном режиме IDLE выберите File → New
+                    File (или нажмите Ctrl + N).</p>
+                <p><img alt="Открытие нового окна в IDLE" src="/uploads/python-first-programm/idle-new-window.png">
+                </p>
+                <p>В открывшемся окне введите следующий код:</p>
+                <pre
+                    class="code python3"><span class="n">name</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">"Как Вас зовут? "</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Привет,"</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span></pre>
+                <p>Первая строка печатает вопрос ("Как Вас зовут? "), ожидает, пока вы не напечатаете
+                    что-нибудь и не нажмёте Enter и сохраняет введённое значение в переменной name.</p>
+                <p>Во второй строке мы используем функцию print для вывода текста на экран, в данном
+                    случае для вывода "Привет, " и того, что хранится в переменной "name".</p>
+                <p>Теперь нажмём F5 (или выберем в меню IDLE Run → Run Module) и убедимся, что то, что
+                    мы написали, работает. Перед запуском IDLE предложит нам сохранить файл. Сохраним
+                    туда, куда вам будет удобно, после чего программа запустится.</p>
+                <p>Вы должны увидеть что-то наподобие этого (на скриншоте слева - файл с написанной вами
+                    программой, справа - результат её работы):</p>
+                <p><img alt="Запуск программы в IDLE" src="/uploads/python-first-programm/idle-run-script.png">
+                </p>
+                <p>Поздравляю! Вы научились писать простейшие программы, а также познакомились со средой
+                    разработки IDLE. Теперь можно немного отдохнуть, а потом начать изучать python
+                    дальше. Можете посмотреть <a href="https://pythonworld.ru/osnovy/sintaksis-yazyka-python.html"
+                        target="_blank">синтаксис python</a>, <a
+                        href="https://pythonworld.ru/osnovy/cikly-for-i-while-operatory-break-i-continue-volshebnoe-slovo-else.html"
+                        target="_blank">циклы</a> или <a
+                        href="https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html"
+                        target="_blank">условия</a>. Желаю удачи!</p>
+                <!-- C:\Users\vitko\OneDrive\Рабочий стол\Test Python\index.html -->
+                <a href="../index.html">Назад</a>
+            </div>
+            <nav id="nav-below" class="site-navigation post-navigation"></nav>
+            </article>
+            <div id="share"><span id="orphus"><img src="/m/mistypes/images/mistypes.png" alt=""></span><a
+                    target="_blank" rel="nofollow" class="socshare" id="yandex_rtb_R-A-139987-8">
+            </div>
+
+
+
+            <form name="comment" action="comment.php" method="post">
+                <p>
+                    <label>Имя:</label>
+                    <input type="text" name="name" />
+                </p>
+                <p>
+                    <label>Комментарий:</label>
+                    <br />
+                    <textarea name="text_comment" cols="30" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="hidden" name="page_id" value="150" />
+                    <input type="submit" value="Отправить" />
+                </p>
+            </form>
+
+            <html>
+
+            </html>
+
+
+
+
+
+
+</body>
+
+</html>
